@@ -1,0 +1,28 @@
+.full {
+    height: 86vh;
+}
+
+.card-size {
+    width: 30rem;
+    height: 60vh;
+}
+
+.icon-container {
+    width: 30rem;
+    height: 25rem;
+    background-color:yellowgreen;
+}
+
+.icon-size {
+    width: 8rem;
+}
+
+.temperature-size {
+    font-size: 8rem;
+}
+
+.background-position {
+    background-size: cover;
+    background-position: center;
+}
+

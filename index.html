@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-dark bg-primary">
+                <h2 class="text-white">Weather App</h2>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Santiago..." aria-label="Search" id="inputCity">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="btnSearch">Buscar</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class=" full d-flex justify-content-center align-items-center background-position" id="main" style="background-position: 100%">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="card card-size">
+                <div class=" d-flex justify-content-center align-items-center">
+                    <img src="#" alt="" class="icon-size pt-3" id="img">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" id="cityName">Ciudad</h5>
+                    <p class="font-weight-bold text-center temperature-size" id="temperature">°</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="max"></li>
+                    <li class="list-group-item" id="min"></li>
+                    <li class="list-group-item" id="description"></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="">
+        <div class="card-footer text-muted bg-primary d-flex justify-content-center align-items-center">
+            <span class=" h1 text-white">
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-linkedin mr-4 ml-4"></i>
+                <i class="fab fa-twitter-square"></i>
+            </span>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/app.js"></script>
+    <script src="https://kit.fontawesome.com/ae6add6e95.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
